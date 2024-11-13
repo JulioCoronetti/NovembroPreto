@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    background-color: #fde045;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fde045;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: 0.5s;
+}
+
+nav.scrolling {
+    height: 75px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav h1 {
+    font-size: 20pt;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: #fde045;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    align-items: end;
+}
+
+div {
+    width: 250px;
+    height: 350px;
+    background-color: #fe8600;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div a {
+    padding: 10px 20px;
+    background-color: #fde045;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fe8600;
+}
+
+div img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+div:hover {
+    transform: translate(-1%, -1%);
+}
+
+p {
+    font-size: 18pt;
+}
+
+section {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+section video {
+    width: 1024px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
